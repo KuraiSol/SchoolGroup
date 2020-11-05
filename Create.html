@@ -1,4 +1,4 @@
-<><HTML lang="en-US">
+<HTML lang="en-US">
     <HEAD>
         <TITLE>Schedule Appointment</TITLE>
         <META charset="utf-8" />
@@ -6,8 +6,51 @@
         <META name="description" content="" />
 		<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
 	
+	<style>
+		table,th,tr{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			background: 
+		}
+		#date1{
+			background-color: #cccccc;
+			border-style: solid;
+			border-width: thin;
+		}
+		#date2{
+			background-color: #fafafa;
+			border-style: solid;
+			border-width: thin;
+		}
+	</style>
+	
     </HEAD>
 	
     <BODY>
+		<table width = 50% height = 95% id="tablestyle1" style = "margin-left: 25%; margin-top: 2%;">
+			<tr height = 10%>
+				<td colspan = 2><p style = "text-align: center;">|| <a href = "Calendar.html">To Calendar View</a> || <a href = "Today.html">To Today</a> ||</p></td>
+			</tr>
+			<tr height = 90%>
+				<td>
+					<form id="form" action="ConfirmAppointment.html">
+					<h2>Patient information:</h2>
+					<label>Patient:</label><input/><br/>
+					<input type = "button" value = "Search" id="search"/><br/>
+					<br/>
+					<br/>
+					<label>Doctor:</label><input/><br/><br/>
+					<label>Reason:</label><input/><br/><br/>
+					<label>Date:</label><input/><br/><br/>
+					<label>Time:</label><input/><br/><br/>
+					<input type = "submit" value = "Create Appointment"/>
+					</form>					
+				<td>
+			</tr>
+		</table>
     </BODY>
 </HTML>   
