@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AMW Check-In</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="CSS/stylesheet.css" type="text/css"/>
+  </head>
+
+  <body>
+
+
+<div id="header">
+<h1 style="text-align:center">Reason for visit:</h1>
+     <p>
+<p>
+  &nbsp;&nbsp;
+  <input style="margin-left: 200px" type="text" maxlength="100"/><br/>
+      <br/>
+  <input style="margin-left: 240px" type="submit" value="Confirm"/>
+  <input type="reset"  value="Edit"/>
+
+
+ <div id="header1">
+    <h1 style="text-align:center">Patient Info:</h1>
+     <p>
+
+
+<table border="1" id="tablestyle1">
+
+      <tr>
+        <td><strong>Patient Name</strong>  : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>John Doe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+        <td><strong>Date of Birth</strong> : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>01/23/4567&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+        <td><strong>Address</strong> : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>123 Main St Anytown, USA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+        <td><strong>Phone</strong> : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td> +01 (012)345-6789 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+    </table>
+
+    <br/>
+       <input style="margin-left: 240px"type="submit" value="Confirm"/>
+       <input type="reset"  value="Edit"/>
+
+ 		<br/>
+	</p>
+</div>
+
+
+<div id="header2">
+<h1 style="text-align:center">Guarantors and Coverage Info:</h1>
+
+    <table border="1" id="tablestyle1">
+    	<tr>
+   			<td><strong>Name:</strong>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		<td>Jane Doe.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    	</tr>
+    	<tr>
+   			<td><strong>Relationship:</strong>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		<td>Mother.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    	</tr>
+    	<tr>
+   			<td><strong>Date of Birth:</strong> &nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		<td>01/01/2345&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    	</tr>
+    </table>
+
+      <table border="1" id="tablestyle1">
+    	<tr>
+        <td><strong>Insurance Name:</strong></td>
+        <td> Some Medical Insurance&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+   			<td><strong>Insurance:</strong> &nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		<td><input type="submit" value="Active"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Inactive"/></td>
+    	</tr>
+    </table>
+    <br/>
+
+    <input style="margin-left: 190px" type="submit" value="Confirm"/>
+    <input type="reset"  value="Add Guarantors/Coverage"/>
+    <br/>
+
+</div>
+
+
+<div id="headerthree">
+ <h1 style="text-align:center">Demographics:</h1>
+
+    <div class="dropdown" style="margin-left: 240px">
+      <button class="dropbtn">Race/Ethnicity</button>
+      <div class="dropdown-content">
+        <a href="#">White or Euro American</a>
+        <a href="#">Black, Afro Caribbean, or African American</a>
+        <a href="#">Hispanic or Latino </a>
+        <a href="#">East Asian or Asian American</a>
+        <a href="#">South Asian or Indian American</a>
+        <a href="#">Middle Eastern or Arab American</a>
+        <a href="#">Other</a>
+      </div>
+    </div>
+
+	<br>
+
+    <div class="dropdown">
+      <button class="dropbtn" style="margin-left: 265px">Gender</button>
+      <div class="dropdown-content">
+        <a href="#">Male</a>
+        <a href="#">Female</a>
+        <a href="#">Transgender Male</a>
+        <a href="#">Transgender Female</a>
+        <a href="#">Other</a>
+      </div>
+    </div>
+
+    <br/>
+
+<h1 style="text-align:center">
+  <strong>Covid-19 Symptoms</strong>
+</h1>
+<div class="dropdown">
+      <button class="dropbtn" style="margin-left: 265px">Yes/No</button>
+      <div class="dropdown-content">
+        <a href="#">Yes</a>
+        <a href="#">No</a>
+      </div>
+    </div>
+
+</div>
+
+
+<div id="headerfour">
+  <h1 style="text-align:center">Confirm Check-In:</h1>
+
+<form id="form" action="ConfirmCheckIn.html">
+<div class="dropdown">
+      <button class="dropbtn" style="margin-left: 245px">All checked?</button>
+      <div class="dropdown-content">
+        <a href="#">Yes</a>
+        <a href="#">No</a>
+      </div>
+    </div>
+
+    <br>
+	<input style="margin-left: 250px" type="submit" value="Submit"/>
+	<input type="reset"  value="Edit" onclick="window.location.href = '/ConfirmCheckIn.html';"/>
+
+</br>
+
+</div>
+
+</form>
+  </body>
+  </html>

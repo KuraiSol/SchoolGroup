@@ -1,0 +1,166 @@
+body {background-color: #b0aac0;}
+
+#tablestyle1{
+	background-color: #dcdcdc;
+	border-style: solid;
+	border-width: thin;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tableheader{
+	font-weight: thin;
+	font-size: 20px;
+	border-style: solid;
+	border-width: thin;
+	color: #2a3132;
+}
+
+links{
+	font-size: 20px;
+}
+
+doctors{
+	width: 500;
+}
+
+#header {
+	width: 600px;
+	height: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: thin;
+	background-color: #f8f8ff;
+}
+
+#header1{
+	width: 600px;
+	height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: thin;
+	background-color: #f8f8ff;
+}
+
+#header2{
+	width: 600px;
+	height: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: thin;
+	background-color: #f8f8ff;
+}
+
+#headerthree{
+	width: 600px;
+	height: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: thin;
+	background-color: #f8f8ff;
+}
+
+.dropbtn {
+  background-color: #2a3132;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+
+dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+
+.dropdown:hover
+.dropdown-content {
+	display: block;
+}
+
+
+.dropdown:hover
+.dropbtn {
+	background-color: #2a3132;
+}
+
+#headerfour{
+	width: 600px;
+	height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: thin;
+	background-color:  #f8f8ff;
+}
+
+.picright{
+	float: right;
+}
+
+label{
+	width: 50px;
+	margin-right: 10px;
+	margin-left: 130px ;
+	font-family: sans-serif;
+}
+
+input{
+	align-items: center;
+	margin-left: 5px auto;
+	align:center;
+}
+
+
+fieldset{
+border: none;
+width: 0px auto;
+margin: 0px auto;
+}
+
+search{
+
+}
+
+
+
+h1 {font-family: "Optima";
+	font-size: 35px;
+	text-decoration: underline;
+	color: #2a3132;
+}
+
+p{font-family: "Optima"; }
+
+th{font-family: "Optima";}
+
+td{font-family: "Optima";
+   color: #2a3132;}

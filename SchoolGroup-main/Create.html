@@ -1,0 +1,72 @@
+<HTML lang="en-US">
+    <HEAD>
+        <TITLE>Schedule Appointment</TITLE>
+        <META charset="utf-8" />
+        <META name="keywords" content="" />
+        <META name="description" content="" />
+		<link rel="stylesheet" href="CSS/stylesheet.css" type="text/css"/>
+
+	<style>
+		table,th,tr{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			background:
+		}
+		#date1{
+			background-color: #cccccc;
+			border-style: solid;
+			border-width: thin;
+		}
+		#date2{
+			background-color: #fafafa;
+			border-style: solid;
+			border-width: thin;
+		}
+	</style>
+  <script type="text/javascript" src="JS_Code.js"></script>
+    </HEAD>
+
+    <BODY>
+
+		<table width = 30% height = 80% id="tablestyle1" style = "margin-top: 2%;">
+			<tr height = 10%>
+				<td colspan = 2><p style = "text-align: center; font-size:20">|| <a href = "Calendar.html">To Calendar View</a> || <a href = "Today.html">To Today</a> ||</p></td>
+			</tr>
+			<tr height = 5%>
+
+				<td>
+					<form id="form" action="ConfirmAppointment.html">
+					<h2 style="text-align:center;">
+            Patient information:
+          </h2>
+
+					<label>Patient:</label><input placeholder="Enter the patients name."></input>
+          <br><br/>
+
+          <search>
+					<input  style="margin-left:250; position: relative;" type = "button" value = "Search"><br/></input>
+					<br/>
+					<br/>
+          </search>
+
+          <h2 style="text-align:center"> Appointment information </h2>
+					<label> Doctor: </label> <input style="position: relative;" size="27" placeholder = "Which Doctor would you like to see?"> </input> <br></br>
+					<label> Reason:</label><input style="position: relative;" size="19"placeholder = "What is the ailment?"> </input><br/></br>
+					<label> Date:</label><input style="position: relative;" size="30"placeholder = "What day would you like to see us?"></input><br></br>
+					<label> Time:</label><input style="position: relative;" size="30"placeholder = "What time?"><br></br></input>
+
+
+					<input style="margin-left:214" type = "submit" value = "Create Appointment"> </input>
+
+
+					</form>
+				<td>
+			</tr>
+		</table>
+
+    </BODY>
+</HTML>
